@@ -1,0 +1,15 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+p {
+  margin-top: 5px;
+  color: #bf1650;
+}
+
+p::before {
+  display: inline;
+  // content: '⚠ ';
+}
