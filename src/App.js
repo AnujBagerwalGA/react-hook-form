@@ -3,6 +3,7 @@ import './styles/App.scss';
 import { useForm } from 'react-hook-form';
 import YupForm from './YupForm';
 import DirtyForm from './DirtyForm';
+import ClearError from './ClearError';
 
 const DefaultHookForm = ({ register, handleSubmit, onSubmit, errors }) => {
   return (
@@ -100,7 +101,8 @@ const App = () => {
     //   errors={errors}
     // />
     // <YupForm />
-    <DirtyForm />
+    // <DirtyForm />
+    <ClearError />
   );
 };
 
