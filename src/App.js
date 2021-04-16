@@ -4,6 +4,7 @@ import { useForm } from 'react-hook-form';
 import YupForm from './YupForm';
 import DirtyForm from './DirtyForm';
 import ClearError from './ClearError';
+import SetValue from './SetValue';
 
 const DefaultHookForm = ({ register, handleSubmit, onSubmit, errors }) => {
   return (
@@ -102,7 +103,8 @@ const App = () => {
     // />
     // <YupForm />
     // <DirtyForm />
-    <ClearError />
+    // <ClearError />
+    <SetValue />
   );
 };
 
